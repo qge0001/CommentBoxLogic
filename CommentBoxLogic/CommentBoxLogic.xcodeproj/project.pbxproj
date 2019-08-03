@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C0671A722EF1746007096DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0671A622EF1746007096DE /* AppDelegate.swift */; };
+		6C0671A922EF1746007096DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0671A822EF1746007096DE /* ViewController.swift */; };
+		6C0671AC22EF1746007096DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C0671AA22EF1746007096DE /* Main.storyboard */; };
+		6C0671AE22EF1747007096DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C0671AD22EF1747007096DE /* Assets.xcassets */; };
+		6C0671B122EF1747007096DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C0671AF22EF1747007096DE /* LaunchScreen.storyboard */; };
+		6C0671BC22EF1747007096DE /* CommentBoxLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0671BB22EF1747007096DE /* CommentBoxLogicTests.swift */; };
+		6C0671C722EF1747007096DE /* CommentBoxLogicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0671C622EF1747007096DE /* CommentBoxLogicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C0671B822EF1747007096DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C06719B22EF1746007096DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C0671A222EF1746007096DE;
+			remoteInfo = CommentBoxLogic;
+		};
+		6C0671C322EF1747007096DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C06719B22EF1746007096DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C0671A222EF1746007096DE;
+			remoteInfo = CommentBoxLogic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C0671A322EF1746007096DE /* CommentBoxLogic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommentBoxLogic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C0671A622EF1746007096DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C0671A822EF1746007096DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C0671AB22EF1746007096DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C0671AD22EF1747007096DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C0671B022EF1747007096DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C0671B222EF1747007096DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C0671B722EF1747007096DE /* CommentBoxLogicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommentBoxLogicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C0671BB22EF1747007096DE /* CommentBoxLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentBoxLogicTests.swift; sourceTree = "<group>"; };
+		6C0671BD22EF1747007096DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C0671C222EF1747007096DE /* CommentBoxLogicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommentBoxLogicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C0671C622EF1747007096DE /* CommentBoxLogicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentBoxLogicUITests.swift; sourceTree = "<group>"; };
+		6C0671C822EF1747007096DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C0671A022EF1746007096DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C0671B422EF1747007096DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C0671BF22EF1747007096DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C06719A22EF1746007096DE = {
+			isa = PBXGroup;
+			children = (
+				6C0671A522EF1746007096DE /* CommentBoxLogic */,
+				6C0671BA22EF1747007096DE /* CommentBoxLogicTests */,
+				6C0671C522EF1747007096DE /* CommentBoxLogicUITests */,
+				6C0671A422EF1746007096DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C0671A422EF1746007096DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C0671A322EF1746007096DE /* CommentBoxLogic.app */,
+				6C0671B722EF1747007096DE /* CommentBoxLogicTests.xctest */,
+				6C0671C222EF1747007096DE /* CommentBoxLogicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C0671A522EF1746007096DE /* CommentBoxLogic */ = {
+			isa = PBXGroup;
+			children = (
+				6C0671A622EF1746007096DE /* AppDelegate.swift */,
+				6C0671A822EF1746007096DE /* ViewController.swift */,
+				6C0671AA22EF1746007096DE /* Main.storyboard */,
+				6C0671AD22EF1747007096DE /* Assets.xcassets */,
+				6C0671AF22EF1747007096DE /* LaunchScreen.storyboard */,
+				6C0671B222EF1747007096DE /* Info.plist */,
+			);
+			path = CommentBoxLogic;
+			sourceTree = "<group>";
+		};
+		6C0671BA22EF1747007096DE /* CommentBoxLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C0671BB22EF1747007096DE /* CommentBoxLogicTests.swift */,
+				6C0671BD22EF1747007096DE /* Info.plist */,
+			);
+			path = CommentBoxLogicTests;
+			sourceTree = "<group>";
+		};
+		6C0671C522EF1747007096DE /* CommentBoxLogicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C0671C622EF1747007096DE /* CommentBoxLogicUITests.swift */,
+				6C0671C822EF1747007096DE /* Info.plist */,
+			);
+			path = CommentBoxLogicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C0671A222EF1746007096DE /* CommentBoxLogic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C0671CB22EF1747007096DE /* Build configuration list for PBXNativeTarget "CommentBoxLogic" */;
+			buildPhases = (
+				6C06719F22EF1746007096DE /* Sources */,
+				6C0671A022EF1746007096DE /* Frameworks */,
+				6C0671A122EF1746007096DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommentBoxLogic;
+			productName = CommentBoxLogic;
+			productReference = 6C0671A322EF1746007096DE /* CommentBoxLogic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C0671B622EF1747007096DE /* CommentBoxLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C0671CE22EF1747007096DE /* Build configuration list for PBXNativeTarget "CommentBoxLogicTests" */;
+			buildPhases = (
+				6C0671B322EF1747007096DE /* Sources */,
+				6C0671B422EF1747007096DE /* Frameworks */,
+				6C0671B522EF1747007096DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C0671B922EF1747007096DE /* PBXTargetDependency */,
+			);
+			name = CommentBoxLogicTests;
+			productName = CommentBoxLogicTests;
+			productReference = 6C0671B722EF1747007096DE /* CommentBoxLogicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C0671C122EF1747007096DE /* CommentBoxLogicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C0671D122EF1747007096DE /* Build configuration list for PBXNativeTarget "CommentBoxLogicUITests" */;
+			buildPhases = (
+				6C0671BE22EF1747007096DE /* Sources */,
+				6C0671BF22EF1747007096DE /* Frameworks */,
+				6C0671C022EF1747007096DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C0671C422EF1747007096DE /* PBXTargetDependency */,
+			);
+			name = CommentBoxLogicUITests;
+			productName = CommentBoxLogicUITests;
+			productReference = 6C0671C222EF1747007096DE /* CommentBoxLogicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C06719B22EF1746007096DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Chuckie;
+				TargetAttributes = {
+					6C0671A222EF1746007096DE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					6C0671B622EF1747007096DE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6C0671A222EF1746007096DE;
+					};
+					6C0671C122EF1747007096DE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6C0671A222EF1746007096DE;
+					};
+				};
+			};
+			buildConfigurationList = 6C06719E22EF1746007096DE /* Build configuration list for PBXProject "CommentBoxLogic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C06719A22EF1746007096DE;
+			productRefGroup = 6C0671A422EF1746007096DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C0671A222EF1746007096DE /* CommentBoxLogic */,
+				6C0671B622EF1747007096DE /* CommentBoxLogicTests */,
+				6C0671C122EF1747007096DE /* CommentBoxLogicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C0671A122EF1746007096DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0671B122EF1747007096DE /* LaunchScreen.storyboard in Resources */,
+				6C0671AE22EF1747007096DE /* Assets.xcassets in Resources */,
+				6C0671AC22EF1746007096DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C0671B522EF1747007096DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C0671C022EF1747007096DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C06719F22EF1746007096DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0671A922EF1746007096DE /* ViewController.swift in Sources */,
+				6C0671A722EF1746007096DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C0671B322EF1747007096DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0671BC22EF1747007096DE /* CommentBoxLogicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C0671BE22EF1747007096DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0671C722EF1747007096DE /* CommentBoxLogicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C0671B922EF1747007096DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C0671A222EF1746007096DE /* CommentBoxLogic */;
+			targetProxy = 6C0671B822EF1747007096DE /* PBXContainerItemProxy */;
+		};
+		6C0671C422EF1747007096DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C0671A222EF1746007096DE /* CommentBoxLogic */;
+			targetProxy = 6C0671C322EF1747007096DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C0671AA22EF1746007096DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C0671AB22EF1746007096DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C0671AF22EF1747007096DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C0671B022EF1747007096DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C0671C922EF1747007096DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C0671CA22EF1747007096DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C0671CC22EF1747007096DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U369L47CGL;
+				INFOPLIST_FILE = CommentBoxLogic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qge.CommentBoxLogic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C0671CD22EF1747007096DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U369L47CGL;
+				INFOPLIST_FILE = CommentBoxLogic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qge.CommentBoxLogic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C0671CF22EF1747007096DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U369L47CGL;
+				INFOPLIST_FILE = CommentBoxLogicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qge.CommentBoxLogicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CommentBoxLogic.app/CommentBoxLogic";
+			};
+			name = Debug;
+		};
+		6C0671D022EF1747007096DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U369L47CGL;
+				INFOPLIST_FILE = CommentBoxLogicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qge.CommentBoxLogicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CommentBoxLogic.app/CommentBoxLogic";
+			};
+			name = Release;
+		};
+		6C0671D222EF1747007096DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U369L47CGL;
+				INFOPLIST_FILE = CommentBoxLogicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qge.CommentBoxLogicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CommentBoxLogic;
+			};
+			name = Debug;
+		};
+		6C0671D322EF1747007096DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U369L47CGL;
+				INFOPLIST_FILE = CommentBoxLogicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qge.CommentBoxLogicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CommentBoxLogic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C06719E22EF1746007096DE /* Build configuration list for PBXProject "CommentBoxLogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C0671C922EF1747007096DE /* Debug */,
+				6C0671CA22EF1747007096DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C0671CB22EF1747007096DE /* Build configuration list for PBXNativeTarget "CommentBoxLogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C0671CC22EF1747007096DE /* Debug */,
+				6C0671CD22EF1747007096DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C0671CE22EF1747007096DE /* Build configuration list for PBXNativeTarget "CommentBoxLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C0671CF22EF1747007096DE /* Debug */,
+				6C0671D022EF1747007096DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C0671D122EF1747007096DE /* Build configuration list for PBXNativeTarget "CommentBoxLogicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C0671D222EF1747007096DE /* Debug */,
+				6C0671D322EF1747007096DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C06719B22EF1746007096DE /* Project object */;
+}
