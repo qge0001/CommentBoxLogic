@@ -99,10 +99,11 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         self.commentInputView.resignFirstResponder()
     }
     
-    func textFieldDidBeginEditing(_ textField: UITextField) {
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
         if(self.targetViewBottom == CGFloat.leastNormalMagnitude) {
             self.targetViewBottom =  min(self.tableView.contentOffset.y + self.tableView.bounds.size.height,self.tableView.contentSize.height)
         }
+        return true
     }
     
     func getScrollViewInsetTop()->CGFloat {
